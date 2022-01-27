@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SearchApi</name>
+    </assembly>
+    <members>
+        <member name="M:SearchApi.Controllers.Search.GetSearch(DataAccess.Model.EsQueryStructure,System.String)">
+            <summary>
+            QueryStructure yapısında gelen sorgu parametreleri ile ElasticSearch üzerinde arama işlemi yapılır.
+            </summary>
+            <param name="queryStructure"></param>
+            <param name="IxName"></param>
+            <returns></returns>
+            <response code="200">Arama sonucunda parametreler ile eşleşen sonuçları listeler. </response>    
+            <response code="400">İstek hatalı.</response>
+            <response code="404">Liste boş.</response>
+        </member>
+    </members>
+</doc>
