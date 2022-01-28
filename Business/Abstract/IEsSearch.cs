@@ -1,4 +1,4 @@
-﻿using DataAccess.Model;
+﻿using Entities.Model;
 using Nest;
 using System;
 using System.Collections.Generic;

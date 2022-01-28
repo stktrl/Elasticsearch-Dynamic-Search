@@ -4,7 +4,7 @@
         <name>SearchApi</name>
     </assembly>
     <members>
-        <member name="M:SearchApi.Controllers.Search.GetSearch(DataAccess.Model.EsQueryStructure,System.String)">
+        <member name="M:SearchApi.Controllers.Search.GetSearch(Entities.Model.EsQueryStructure,System.String)">
             <summary>
             QueryStructure yapısında gelen sorgu parametreleri ile ElasticSearch üzerinde arama işlemi yapılır.
             </summary>

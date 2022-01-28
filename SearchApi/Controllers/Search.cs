@@ -1,5 +1,5 @@
 ﻿using Business.Abstract;
-using DataAccess.Model;
+using Entities.Model;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Nest;
